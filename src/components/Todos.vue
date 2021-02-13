@@ -19,7 +19,7 @@
         v-bind:class="{'is-complete':todo.completed}"
       >
         {{ todo.title }}
-        <i @clcik="deleteTodo(todo.id)" class="fas fa-trash-alt"></i>
+        <i @click="deleteTodo(todo.id)" class="fas fa-trash-alt"></i> <!-- clcik ==> click -->
       </div>
     </div>
   </div>
